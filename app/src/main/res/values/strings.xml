@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">P-ActivityStatusThemeOrientationRestore</string>
+    <string name="hello">跳转一下</string>
+    <string name="char_startActivityHide">隐式的启动activity</string>
+    <string name="char_start_activity_for_result">startActivityForResult</string>
+    <string name="char_btn_back">back</string>
+    <string name="btn_jump_to_other_style">跳转到其他的样式</string>
 </resources>

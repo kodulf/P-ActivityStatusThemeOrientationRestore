@@ -16,6 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.StartMethodActivity" />
+        <activity android:name=".activities.ResultActivity">
+            <intent-filter>
+                <action android:name="bjpkten.p_activitystatusthemeorientationrestore" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ThemeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.OrientationVActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".activities.ConfigChangeActivity"
+
+            ></activity>
     </application>
 
 </manifest>
